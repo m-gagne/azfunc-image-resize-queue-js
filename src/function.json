@@ -1,0 +1,20 @@
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "name": "queue",
+            "type": "queueTrigger",
+            "direction": "in",
+            "queueName": "inbound",
+            "connection": "ImageStore"
+        },        
+        {
+            "name": "resized",
+            "type": "blob",
+            "dataType": "binary",
+            "direction": "out",
+            "path": "resized/{name}",
+            "connection":"ImageStore"
+        }  
+    ]
+}

@@ -1,0 +1,7 @@
+// Sample queue message
+// name is used for output name (to Azure Storage)
+// uri is the Image to download and resize
+{ 
+  "name": "8.jpg",
+  "uri": "https://portalstoragewuprod2.azureedge.net/vision/Analysis/8.jpg"
+}
